@@ -1,0 +1,3 @@
+create database BIBLIOTECA;
+use BIBLIOTECA;
+create table FICHAS(ID int auto_increment primary key , Nome varchar(50), Endereço varchar(80), Curso varchar(30), Telefone int(20), Tombo int, Nome do livro varchar(80), Autor varchar(80), Emp date, Dev date);
